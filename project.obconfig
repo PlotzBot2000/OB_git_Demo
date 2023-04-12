@@ -1,0 +1,35 @@
+{
+  "ProjectID": "c991d93a-8c14-4aa3-b554-75d19862de9a",
+  "ProjectName": "GitTest",
+  "ProjectType": "OpenBots",
+  "Main": "Main.obscript",
+  "Version": "1.8.6.0",
+  "ProjectArguments": [],
+  "ProjectDependencies": [
+    {
+      "Name": "OpenBots.Commands.Core",
+      "Version": "1.8.6",
+      "PackageHash": "RO2QxqbjfdLmMHFApstqgbTbxAqWUut1hojBXxLQiKYu9OlbkAEW4ofotS6TouN+bkIxIRVuPhFa29JDcJ1cWQ=="
+    },
+    {
+      "Name": "OpenBots.Commands.DataManipulation",
+      "Version": "1.8.6",
+      "PackageHash": "PxjmSPbwo3BIbvAwRqEjbJ54n+XTmKAqN+acfLCDCLyuZXZC7ZiGQqjTlOUsPvqNS8yMv/Dt/CqySwJtNhIcVg=="
+    },
+    {
+      "Name": "OpenBots.Commands.Microsoft",
+      "Version": "1.8.6",
+      "PackageHash": "Mj1N1nQ3cY5IbMV3OIlBEfqsaF/yUAJBFoXl7GjpwptdG/W+O0bLW67vqFSzBJ4e8I20ZzX5aI/Hyra8F3koYw=="
+    },
+    {
+      "Name": "OpenBots.Commands.SystemAutomation",
+      "Version": "1.8.6",
+      "PackageHash": "IVBFCifeZ/MCm6WFB9bb3igkIhC/irjWKpYLvQ7IlLG9oP1LOGlFQ/3X9Yrp87XbgGuSLJGOH2338x6ihX1TSw=="
+    },
+    {
+      "Name": "OpenBots.Commands.UIAutomation",
+      "Version": "1.8.6",
+      "PackageHash": "FYKsB+Nkosw3Sg5PjSftUX4MfEY2XSzxIzkZeIRjuBxeBYFpC3Ae85xiIO/U/KWBW8DJ110gvI2RSJL0Ysra0g=="
+    }
+  ]
+}
