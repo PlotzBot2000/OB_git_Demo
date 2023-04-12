@@ -1,6 +1,14 @@
 {
   "$type": "OpenBots.Core.Script.Script, OpenBots.Core",
-  "Variables": [],
+  "Variables": [
+    {
+      "$type": "OpenBots.Core.Script.ScriptVariable, OpenBots.Core",
+      "VariableName": "ProjectPath",
+      "VariableType": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+      "VariableValue": "\"Value Provided at Runtime\"",
+      "VariableSource": 0
+    }
+  ],
   "Arguments": [],
   "Elements": [],
   "ImportedNamespaces": {
@@ -153,6 +161,26 @@
         "v_Comment": null,
         "CommandEnabled": true,
         "LineNumber": 1,
+        "IsCommented": false,
+        "PauseBeforeExecution": false
+      },
+      "AdditionalScriptCommands": null
+    },
+    {
+      "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
+      "ScriptCommand": {
+        "$type": "OpenBots.Commands.Core.Misc.ShowMessageCommand, OpenBots.Commands.Core",
+        "v_Message": "\"First Feature\"",
+        "v_AutoCloseAfter": "0",
+        "CommandID": "31ca77df-1dbd-44d6-b9d0-374a00a0047b",
+        "CommandName": "ShowMessageCommand",
+        "SelectionName": "Show Message",
+        "v_IsPrivate": false,
+        "v_IsRemote": false,
+        "v_ErrorHandling": "None",
+        "v_Comment": null,
+        "CommandEnabled": true,
+        "LineNumber": 2,
         "IsCommented": false,
         "PauseBeforeExecution": false
       },
