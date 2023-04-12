@@ -707,6 +707,28 @@
         "PauseBeforeExecution": false
       },
       "AdditionalScriptCommands": null
+    },
+    {
+      "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
+      "ScriptCommand": {
+        "$type": "OpenBots.Commands.Core.Misc.ShowMessageCommand, OpenBots.Commands.Core",
+        "v_Message": "\"Develop phase 2\"",
+        "v_AutoCloseAfter": "0",
+        "v_SendNotification": "No",
+        "v_NotificationTimeout": null,
+        "CommandID": "6bf93c2e-3a68-4184-96bd-ba831a6dafd9",
+        "CommandName": "ShowMessageCommand",
+        "SelectionName": "Show Message",
+        "v_IsPrivate": false,
+        "v_IsRemote": false,
+        "v_ErrorHandling": "None",
+        "v_Comment": null,
+        "CommandEnabled": true,
+        "LineNumber": 3,
+        "IsCommented": false,
+        "PauseBeforeExecution": false
+      },
+      "AdditionalScriptCommands": null
     }
   ],
   "Version": "2.0.0.0",
