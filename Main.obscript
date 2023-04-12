@@ -4,7 +4,7 @@
     {
       "$type": "OpenBots.Core.Script.ScriptVariable, OpenBots.Core",
       "VariableName": "ProjectPath",
-      "VariableType": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+      "VariableType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
       "VariableValue": "\"Value Provided at Runtime\"",
       "VariableSource": 0
     }
@@ -12,21 +12,7 @@
   "Arguments": [],
   "Elements": [],
   "ImportedNamespaces": {
-    "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.List`1[[OpenBots.Core.Script.AssemblyReference, OpenBots.Core]], mscorlib]], mscorlib",
-    "Microsoft.Office.Interop.Outlook": [
-      {
-        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
-        "AssemblyName": "Microsoft.Office.Interop.Outlook",
-        "AssemblyVersion": "15.0.0.0"
-      }
-    ],
-    "MimeKit": [
-      {
-        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
-        "AssemblyName": "MimeKit",
-        "AssemblyVersion": "3.2.0.0"
-      }
-    ],
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Collections.Generic.List`1[[OpenBots.Core.Script.AssemblyReference, OpenBots.Core]], System.Private.CoreLib]], System.Private.CoreLib",
     "Newtonsoft.Json.Linq": [
       {
         "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
@@ -38,109 +24,641 @@
       {
         "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
         "AssemblyName": "OpenBots.Core",
-        "AssemblyVersion": "1.8.6.0"
+        "AssemblyVersion": "2.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "OpenBots.Core",
+        "AssemblyVersion": "2.0.0.0"
       }
     ],
     "System": [
       {
         "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
-        "AssemblyName": "mscorlib",
+        "AssemblyName": "System.Private.CoreLib",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Windows.Forms",
+        "AssemblyVersion": "6.0.2.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Windows.Forms.Primitives",
+        "AssemblyVersion": "6.0.2.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.ComponentModel.Primitives",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Runtime.InteropServices",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Drawing.Primitives",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Collections.Specialized",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Collections",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Linq",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Threading",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Drawing.Common",
+        "AssemblyVersion": "7.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Diagnostics.TraceSource",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Data.Common",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.ComponentModel.TypeConverter",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.ComponentModel",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Private.Xml",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Runtime.Serialization.Formatters",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Collections.Concurrent",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Linq.Expressions",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Runtime.Numerics",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Private.Uri",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.ObjectModel",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Runtime.Serialization.Primitives",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Memory",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Console",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Text.RegularExpressions",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.ComponentModel.EventBasedAsync",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Resources.Extensions",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "Microsoft.Win32.SystemEvents",
+        "AssemblyVersion": "7.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Collections.NonGeneric",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Memory.Data",
+        "AssemblyVersion": "7.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Diagnostics.Process",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Net.Primitives",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Private.Xml.Linq",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System",
         "AssemblyVersion": "4.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "netstandard",
+        "AssemblyVersion": "2.1.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Memory.Data",
+        "AssemblyVersion": "7.0.0.0"
+      }
+    ],
+    "System.Collections": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Private.CoreLib",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Collections.Specialized",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Collections",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Runtime.Serialization.Formatters",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Collections.Concurrent",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.ObjectModel",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Text.RegularExpressions",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Collections.NonGeneric",
+        "AssemblyVersion": "6.0.0.0"
       }
     ],
     "System.Collections.Generic": [
       {
         "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
-        "AssemblyName": "mscorlib",
-        "AssemblyVersion": "4.0.0.0"
+        "AssemblyName": "System.Private.CoreLib",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Collections",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Linq",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Linq.Expressions",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Private.Uri",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.ObjectModel",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Text.RegularExpressions",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Private.Xml.Linq",
+        "AssemblyVersion": "6.0.0.0"
+      }
+    ],
+    "System.ComponentModel": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Private.CoreLib",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Windows.Forms",
+        "AssemblyVersion": "6.0.2.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Windows.Forms.Primitives",
+        "AssemblyVersion": "6.0.2.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.ComponentModel.Primitives",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.ComponentModel.TypeConverter",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.ComponentModel",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.ObjectModel",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "Microsoft.Win32.Primitives",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.ComponentModel.EventBasedAsync",
+        "AssemblyVersion": "6.0.0.0"
       }
     ],
     "System.Data": [
       {
         "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
-        "AssemblyName": "System.Data",
-        "AssemblyVersion": "4.0.0.0"
+        "AssemblyName": "System.Data.Common",
+        "AssemblyVersion": "6.0.0.0"
       },
       {
         "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
-        "AssemblyName": "System.Data.DataSetExtensions",
+        "AssemblyName": "System.Data",
         "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Data.Common": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Data.Common",
+        "AssemblyVersion": "6.0.0.0"
       }
     ],
     "System.Diagnostics": [
       {
         "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
-        "AssemblyName": "System",
-        "AssemblyVersion": "4.0.0.0"
+        "AssemblyName": "System.Private.CoreLib",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Diagnostics.TraceSource",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Diagnostics.Process",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Diagnostics.Process",
+        "AssemblyVersion": "6.0.0.0"
       }
     ],
     "System.Drawing": [
       {
         "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Drawing.Primitives",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Drawing.Common",
+        "AssemblyVersion": "7.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.ComponentModel.TypeConverter",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
         "AssemblyName": "System.Drawing",
-        "AssemblyVersion": "4.0.0.0"
+        "AssemblyVersion": "6.0.2.0"
       }
     ],
     "System.IO": [
       {
         "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
-        "AssemblyName": "mscorlib",
-        "AssemblyVersion": "4.0.0.0"
+        "AssemblyName": "System.Private.CoreLib",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Console",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Resources.Extensions",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Memory.Data",
+        "AssemblyVersion": "7.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.IO",
+        "AssemblyVersion": "6.0.0.0"
       }
     ],
     "System.Linq": [
       {
         "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
-        "AssemblyName": "System.Core",
+        "AssemblyName": "System.Linq",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Linq.Expressions",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "Microsoft.CodeAnalysis",
+        "AssemblyVersion": "4.4.0.0"
+      }
+    ],
+    "System.Net": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Private.CoreLib",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Net.Primitives",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Net",
         "AssemblyVersion": "4.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Net.Primitives",
+        "AssemblyVersion": "6.0.0.0"
+      }
+    ],
+    "System.Runtime": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Private.CoreLib",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Runtime",
+        "AssemblyVersion": "6.0.0.0"
       }
     ],
     "System.Security": [
       {
         "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
-        "AssemblyName": "mscorlib",
+        "AssemblyName": "System.Private.CoreLib",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Runtime.InteropServices",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "Microsoft.CodeAnalysis",
+        "AssemblyVersion": "4.4.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Security",
         "AssemblyVersion": "4.0.0.0"
       }
     ],
     "System.Text": [
       {
         "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
-        "AssemblyName": "mscorlib",
-        "AssemblyVersion": "4.0.0.0"
+        "AssemblyName": "System.Private.CoreLib",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Drawing.Common",
+        "AssemblyVersion": "7.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Private.Xml",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Runtime.Numerics",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Private.Uri",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Memory",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Console",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Text.RegularExpressions",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Diagnostics.Process",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Net.Primitives",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Private.Xml.Linq",
+        "AssemblyVersion": "6.0.0.0"
       }
     ],
     "System.Text.RegularExpressions": [
       {
         "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
-        "AssemblyName": "System",
-        "AssemblyVersion": "4.0.0.0"
+        "AssemblyName": "System.Text.RegularExpressions",
+        "AssemblyVersion": "6.0.0.0"
       }
     ],
     "System.Threading.Tasks": [
       {
         "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
-        "AssemblyName": "mscorlib",
-        "AssemblyVersion": "4.0.0.0"
+        "AssemblyName": "System.Private.CoreLib",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Memory.Data",
+        "AssemblyVersion": "7.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Threading.Tasks",
+        "AssemblyVersion": "6.0.0.0"
       }
     ],
     "System.Windows.Forms": [
       {
         "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
         "AssemblyName": "System.Windows.Forms",
-        "AssemblyVersion": "4.0.0.0"
+        "AssemblyVersion": "6.0.2.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Windows.Forms.Primitives",
+        "AssemblyVersion": "6.0.2.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Drawing.Common",
+        "AssemblyVersion": "7.0.0.0"
       }
     ],
     "System.Xml": [
       {
         "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Data.Common",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Private.Xml",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
         "AssemblyName": "System.Xml",
         "AssemblyVersion": "4.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Xml.ReaderWriter",
+        "AssemblyVersion": "6.0.0.0"
       }
     ],
     "System.Xml.Linq": [
       {
         "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Private.Xml.Linq",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
         "AssemblyName": "System.Xml.Linq",
+        "AssemblyVersion": "4.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Private.Xml.Linq",
+        "AssemblyVersion": "6.0.0.0"
+      }
+    ],
+    "System.Xml.Serialization": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Private.Xml",
+        "AssemblyVersion": "6.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Xml.Serialization",
         "AssemblyVersion": "4.0.0.0"
       }
     ]
@@ -152,6 +670,8 @@
         "$type": "OpenBots.Commands.Core.Misc.ShowMessageCommand, OpenBots.Commands.Core",
         "v_Message": "\"Hello World\"",
         "v_AutoCloseAfter": "0",
+        "v_SendNotification": "No",
+        "v_NotificationTimeout": null,
         "CommandID": "e98de402-d645-489f-b478-728147218670",
         "CommandName": "ShowMessageCommand",
         "SelectionName": "Show Message",
@@ -170,8 +690,10 @@
       "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
       "ScriptCommand": {
         "$type": "OpenBots.Commands.Core.Misc.ShowMessageCommand, OpenBots.Commands.Core",
-        "v_Message": "\"First Feature\"",
+        "v_Message": "\"First Feature - Bugfix\"",
         "v_AutoCloseAfter": "0",
+        "v_SendNotification": "No",
+        "v_NotificationTimeout": null,
         "CommandID": "31ca77df-1dbd-44d6-b9d0-374a00a0047b",
         "CommandName": "ShowMessageCommand",
         "SelectionName": "Show Message",
@@ -187,5 +709,6 @@
       "AdditionalScriptCommands": null
     }
   ],
-  "Version": "1.8.6.0"
+  "Version": "2.0.0.0",
+  "IsValidated": false
 }
