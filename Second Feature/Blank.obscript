@@ -152,7 +152,7 @@
         "$type": "OpenBots.Commands.Core.Misc.ShowMessageCommand, OpenBots.Commands.Core",
         "v_Message": "\"Hello World\"",
         "v_AutoCloseAfter": "0",
-        "CommandID": "e98de402-d645-489f-b478-728147218670",
+        "CommandID": "7b67cded-90d4-4a25-a594-d2742570e933",
         "CommandName": "ShowMessageCommand",
         "SelectionName": "Show Message",
         "v_IsPrivate": false,
@@ -161,46 +161,6 @@
         "v_Comment": null,
         "CommandEnabled": true,
         "LineNumber": 1,
-        "IsCommented": false,
-        "PauseBeforeExecution": false
-      },
-      "AdditionalScriptCommands": null
-    },
-    {
-      "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
-      "ScriptCommand": {
-        "$type": "OpenBots.Commands.Core.Misc.ShowMessageCommand, OpenBots.Commands.Core",
-        "v_Message": "\"First Feature\"",
-        "v_AutoCloseAfter": "0",
-        "CommandID": "31ca77df-1dbd-44d6-b9d0-374a00a0047b",
-        "CommandName": "ShowMessageCommand",
-        "SelectionName": "Show Message",
-        "v_IsPrivate": false,
-        "v_IsRemote": false,
-        "v_ErrorHandling": "None",
-        "v_Comment": null,
-        "CommandEnabled": true,
-        "LineNumber": 2,
-        "IsCommented": false,
-        "PauseBeforeExecution": false
-      },
-      "AdditionalScriptCommands": null
-    },
-    {
-      "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
-      "ScriptCommand": {
-        "$type": "OpenBots.Commands.Core.Misc.ShowMessageCommand, OpenBots.Commands.Core",
-        "v_Message": "\"Second Feature\"",
-        "v_AutoCloseAfter": "0",
-        "CommandID": "2a40e950-a555-48c5-bf21-a67c7ce50c38",
-        "CommandName": "ShowMessageCommand",
-        "SelectionName": "Show Message",
-        "v_IsPrivate": false,
-        "v_IsRemote": false,
-        "v_ErrorHandling": "None",
-        "v_Comment": null,
-        "CommandEnabled": true,
-        "LineNumber": 3,
         "IsCommented": false,
         "PauseBeforeExecution": false
       },
