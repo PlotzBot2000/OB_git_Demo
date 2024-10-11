@@ -690,7 +690,7 @@
       "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
       "ScriptCommand": {
         "$type": "OpenBots.Commands.Core.Misc.ShowMessageCommand, OpenBots.Commands.Core",
-        "v_Message": "\"First Feature - Bugfix\"",
+        "v_Message": "\"First Feature\"",
         "v_AutoCloseAfter": "0",
         "v_SendNotification": "No",
         "v_NotificationTimeout": null,
