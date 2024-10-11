@@ -707,6 +707,27 @@
         "PauseBeforeExecution": false
       },
       "AdditionalScriptCommands": null
+    },
+    {
+      "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
+      "ScriptCommand": {
+        "$type": "OpenBots.Commands.Core.Task.RunTaskCommand, OpenBots.Commands.Core",
+        "v_TaskPath": "ProjectPath + @\"\\Second Feature\\Blank.obscript\"",
+        "v_AssignArguments": false,
+        "v_ArgumentAssignments": [],
+        "CommandID": "2f73e7db-286b-4d45-8f58-237dd728969f",
+        "CommandName": "RunTaskCommand",
+        "SelectionName": "Run Task",
+        "v_IsPrivate": false,
+        "v_IsRemote": false,
+        "v_ErrorHandling": "None",
+        "v_Comment": null,
+        "CommandEnabled": true,
+        "LineNumber": 3,
+        "IsCommented": false,
+        "PauseBeforeExecution": false
+      },
+      "AdditionalScriptCommands": null
     }
   ],
   "Version": "2.0.1.0",
