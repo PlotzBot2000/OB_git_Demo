@@ -3,33 +3,33 @@
   "ProjectName": "OB_git_Demo",
   "ProjectType": "OpenBots",
   "Main": "Main.obscript",
-  "Version": "2.0.0.0",
+  "Version": "2.0.1.0",
   "ProjectArguments": [],
   "ProjectDependencies": [
     {
       "Name": "OpenBots.Commands.Core",
-      "Version": "2.0.0",
-      "PackageHash": "URfqiKEtP/aNO7pddk5S9Z5aSZvIFuW4Wxtfdf0XZ6TLnsOxsT4g1nWcmj5OaTIXfCMSvsqsv3/WHkFQYMMuNQ=="
+      "Version": "2.0.1",
+      "PackageHash": "hdGNyRA29m8Nid1p2ezhV2RGDgtL9jzwjPMLFq2394mA6EKJ0avWZvWoJINAxGMreqs5vtVgA60FlW68+6jPqQ=="
     },
     {
       "Name": "OpenBots.Commands.DataManipulation",
-      "Version": "2.0.0",
-      "PackageHash": "nfvA+TXh58TAXkxZ2jdkSCKciJdaOPhqAYFa+iWyqsJexV0HiD+1V6jEp1Yo3IkvL+CyxKnbx7vISI83TWmXmA=="
+      "Version": "2.0.1",
+      "PackageHash": "f4TBAR3m3vDJEHcBeHCvFn/xXsnr6grG+qa3QNOVMYo3F6/MPjzBiU3i7G4h+YmbXcN71qodiuLcH6weoTPsBw=="
     },
     {
       "Name": "OpenBots.Commands.Microsoft",
-      "Version": "2.0.0",
-      "PackageHash": "ZpG+AXZKLVsKsMzuq1I6QDRXDtT9DEV2cX/X+MVhZpfk4COXM84GlF0IOvU6WyqDaCPlkxSxggxKOhBwysGbjA=="
+      "Version": "2.0.1",
+      "PackageHash": "Fil6IbDDHbpn5RSonRir2XGgyfQy9YLcaU79n0rd9O71T/BjY9ieO6y54SlWVyyVGgHjV6PbZ9ZQ/MpA9gBqIg=="
     },
     {
       "Name": "OpenBots.Commands.SystemAutomation",
-      "Version": "2.0.0",
-      "PackageHash": "UajLVMNtuZkzRwbt4luo6wan1Ti1jzvgSAg/XtJCormxzT/c1Sg2G5Q6Ys1gp5zMUdz1FgFFLa8O6HCFOXwsug=="
+      "Version": "2.0.1",
+      "PackageHash": "hvmLU2I1Cat/u1QcEj6NDE7hF6AkfUeVNSHV6ePX7GtlBNgy+PW26h82umu55qKePq6CGxX3a3dC5/ODODeybw=="
     },
     {
       "Name": "OpenBots.Commands.UIAutomation",
-      "Version": "2.0.0",
-      "PackageHash": "yhnTgn/X0SL9LQO9+DGLsCLRHTQNhA6lJawD57Voo/fS3HCljpXBimYL91hdMNz5GLcCnGvrdXwidwvW11lozg=="
+      "Version": "2.0.1",
+      "PackageHash": "9Cp/fSXUEUp1rXpFIM0kh8avw2aOouqdHm5PbcriY7i0R/9VRr736HUSAHt3wmmyV/frxpE6fIeyL7P/FLFN8Q=="
     }
   ]
 }
