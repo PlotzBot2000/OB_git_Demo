@@ -9,7 +9,16 @@
       "VariableSource": 0
     }
   ],
-  "Arguments": [],
+  "Arguments": [
+    {
+      "$type": "OpenBots.Core.Script.ScriptArgument, OpenBots.Core",
+      "ArgumentName": "in_Environment",
+      "ArgumentType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "ArgumentValue": null,
+      "Direction": 0,
+      "AssignedVariable": null
+    }
+  ],
   "Elements": [],
   "ImportedNamespaces": {
     "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Collections.Generic.List`1[[OpenBots.Core.Script.AssemblyReference, OpenBots.Core]], System.Private.CoreLib]], System.Private.CoreLib",

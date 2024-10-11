@@ -4,7 +4,14 @@
   "ProjectType": "OpenBots",
   "Main": "Main.obscript",
   "Version": "2.0.1.0",
-  "ProjectArguments": [],
+  "ProjectArguments": [
+    {
+      "ArgumentName": "in_Environment",
+      "ArgumentType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "ArgumentValue": null,
+      "Direction": 0
+    }
+  ],
   "ProjectDependencies": [
     {
       "Name": "OpenBots.Commands.Core",
